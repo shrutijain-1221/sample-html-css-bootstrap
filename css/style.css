@@ -11,6 +11,16 @@ p{
   font-weight: 400;
   color: #606060;
 }
+.center-div{
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% ,-50%);
+    -ms-transform: translate(-50% ,-50%);
+      -webkit-transform: translate(-50% ,-50%);
+}
 i{
   color: #2fccd0;
 }
@@ -56,16 +66,7 @@ i{
 .navbar-brand {
   color: black !important;
 }
-.center-div{
-  width: 100%;
-  height: auto;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50% ,-50%);
-    -ms-transform: translate(-50% ,-50%);
-      -webkit-transform: translate(-50% ,-50%);
-}
+
 .header-button a{
   border: 1px solid #fff;
   border-radius: 100px;
@@ -294,7 +295,7 @@ box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
   font-size: 13px;
   font-weight: 400;
   color: #666666;
-  margin-bottom: 20px;
+  margin-bottom: 21px;
 
 }
 
@@ -386,7 +387,7 @@ form:hover .form-button button{
   text-shadow: 0 2px 5px rgba(0,0,0,0.4);
 }
 
-/******media query****/
+/******media query (for more responsive design)****/
 @media(max-width:768px){
   .nav-item{
     text-align: center!important;
